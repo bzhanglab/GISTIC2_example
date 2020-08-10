@@ -23,12 +23,13 @@ This is a example script used to run GISTIC2 in VENUS.
 
 *-refgene* is the reference file telling the tool the locations of genes, choose according to how your segment-level data were generated (hg38 or hg19).
 
-*-ta* and *-td* specify the threshold to call SCNA, the default setting is 0.1; however, I found 0.3 is more likely to be true according to the communcation with biologists.
+*-ta* and *-td* specify the threshold to call SCNA, the default setting is 0.1; however, I found that 0.3 is more likely to be true according to the communcation with biologists.
 
 Finally, leave all other parameters as the default setting.
 
 ## Output:
 *all_data_by_genes.txt* is the gene-level SCNA log2 ratio
+
 *all_thresholded_by_gene.txt* is the gene-level SCNA integer call. -1/1: shallow SCNA; -2/2: deep SCNA
 
 ## Contact
